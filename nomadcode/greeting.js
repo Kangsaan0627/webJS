@@ -10,7 +10,7 @@ function onLogInSubmit(event){
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const name = inputLogin.value;
 
-    // username이 저장되어 있지 않아 새로 저장해야 하는 경우.commit
+    // username이 저장되어 있지 않아 새로 저장해야 하는 경우.
     localStorage.setItem("username", name);
     greeting.innerText = `Hello ${USER_NAME_KEY}`;
     greeting.classList.remove(HIDDEN_CLASSNAME); 
