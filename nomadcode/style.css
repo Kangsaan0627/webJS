@@ -12,4 +12,54 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
+}
+.weather{
+    text-align: right;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* 텍스트를 중앙에 정렬 */
+    margin-top: 0px; /* 상단 여백 추가 */
+    
     }
+      
+#quote span {
+    margin-bottom: 10px; /* 글귀 사이에 간격 추가 */
+    }
+
+#todo-list li {
+    margin-bottom: 10px; /* Todolist 아이템 간격 조절 */
+    font-size: 25px;
+}
+
+#clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* 텍스트를 중앙에 정렬 */
+
+    margin-block-end: 0px;
+    
+}
+
+.center-container {
+    text-align: center;
+  }
+  
+  #login-form {
+    margin-bottom: 20px;
+  }
+
+#todo-list button {
+    margin-left: 10px; /* 제거 버튼과 Todolist 간의 간격 조절 */
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35dvh;
+    font-size: 80px;
+  }
